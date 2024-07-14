@@ -1,0 +1,37 @@
+:root{
+    --green-c: #9EFF85;
+    --preto-c: #121212;
+    --cinza-c: #252525;
+
+}
+
+.flex{
+    display: flex;
+}
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.f-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+.j-around{
+    justify-content: space-around;
+}
+.t-center{
+    text-align: center;
+}
