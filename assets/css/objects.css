@@ -18,3 +18,22 @@
 .star{
     position: absolute;
 }
+.front{
+    color: #FF8282;
+}
+.back{
+    color: #8E84FF;
+}
+.full{
+    color: #FFFA78;
+}
+.contact-links{
+    background: var(--green-c);
+    border-radius: var(--border-r);
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--preto-c);
+    font-weight: 600;
+}

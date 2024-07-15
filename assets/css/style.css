@@ -35,7 +35,7 @@ header{
 .hero{
     position: relative;
     height: 100vh;
-    background: radial-gradient(circle, var(--cinza-c) 0%, var(--preto-c) 99%);
+    background: radial-gradient(circle, var(--cinza-c) 0%, var(--preto-c) 55%);
 }
 .hero-text{
     color: var(--branco-c);
@@ -63,3 +63,52 @@ text{
     right: 250px;
 }
 
+.content{
+    background: linear-gradient(0deg, rgba(37,37,37,1) 0%, rgba(18,18,18,1) 24%);
+}
+.content p{
+    font-size: var(--mid-sz);
+}
+
+
+.apresentacao{
+    width: 70%;
+    padding-top: 15rem;
+    gap: 10.6rem;
+}
+.myphoto{
+    width: 48rem;
+    border-radius: var(--border-r);
+}
+.texto-apresentacao{
+    color: var(--branco-c);
+}
+.texto-apresentacao h1{
+    font-size: var(--big-sz);
+    font-weight: 500;
+}
+.texto-apresentacao .cargo{
+    color: var(--green-c);
+    font-style: italic;
+    padding: 2rem;
+}
+.social-link-area{
+    gap: 4.4rem;
+}
+
+
+
+.portifolio{
+    padding-top: 15rem;
+    color: var(--branco-c);
+}
+.title{
+    font-size: 3.2rem;
+    padding: var(--mid-sz);
+}
+
+footer{
+    color: var(--branco-c);
+    padding: 2rem;
+    background: var(--preto-c);
+}
