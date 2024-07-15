@@ -2,11 +2,22 @@
     --green-c: #9EFF85;
     --preto-c: #121212;
     --cinza-c: #252525;
+    --branco-c: #ffffff;
 
+    --small-pad: ;
+
+    --big-sz: 4rem;
+    --normal-sz: 1.5rem;
+    --small-sz: 1.3rem;
+
+    --bold: 600;
+
+    --border-r: 1.2rem;
 }
 
 a{
     text-decoration: none;
+    color: var(--branco-c);
 }
 
 .flex{
@@ -38,4 +49,13 @@ a{
 }
 .t-center{
     text-align: center;
+}
+
+::-webkit-scrollbar{
+    background-color: var(--preto-c);
+    width: 3px;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--green-c);
+    border-radius: 12px;
 }

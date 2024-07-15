@@ -2,4 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat';
+    text-decoration: none;
 }
+html{
+    font-size: 60.3%;
+}
+body{
+    position: relative;
+}
+/*  Cabeçalho */
+header{
+    position: absolute;
+    padding: 3rem 6rem;
+    width: 100%;
+    z-index: 1000;
+}
+.logo-container{
+    width: 4%;
+}
+.logo-container img{
+    width: 100%;
+}
+.menu{
+    gap: 3rem;
+    font-size: var(--normal-sz);
+    font-weight: var(--bold);
+}
+
+
+/* */
+.hero{
+    position: relative;
+    height: 100vh;
+    background: radial-gradient(circle, var(--cinza-c) 0%, var(--preto-c) 99%);
+}
+.hero-text{
+    color: var(--branco-c);
+    font-size: var(--big-sz);
+}
+text{
+    color: var(--green-c);
+}
+.modal-icon{
+    width: 2.5rem;
+}
+
+.star:nth-child(3) {
+    top: 100px;
+    right: 300px;
+}
+
+.star:nth-child(4) {
+    bottom: 150px;
+    left: 200px;
+}
+
+.star:nth-child(5) {
+    bottom: 50px;
+    right: 250px;
+}
+

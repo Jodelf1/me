@@ -1,0 +1,29 @@
+@keyframes cimabaixo{
+    0%{
+        transform: translateY(1rem);
+    }
+    50%{
+        transform: translateY(2rem);
+    }
+    100%{
+        transform: translateY(1rem);
+    }
+}
+
+@keyframes moveStar {
+    from {
+        transform: translateY(0) translateX(0);   
+    }
+    to {
+        transform: translateY(20px) translateX(20px);
+    }
+}
+
+
+.modal{
+    animation: cimabaixo 5s ease-in 1s infinite normal;
+}
+
+.star {
+    animation: moveStar 6s infinite alternate;
+}

@@ -4,3 +4,17 @@
     color: var(--preto-c);
     border-radius: 9px;
 }
+.modal{
+    position: absolute;
+    bottom: 4rem;
+    display: flex;
+    gap: 2rem;
+    font-size: var(--small-sz);
+    color: var(--branco-c);
+    background: #12121298;
+    padding: 3rem 2rem;
+    border-radius: var(--border-r);
+}
+.star{
+    position: absolute;
+}
