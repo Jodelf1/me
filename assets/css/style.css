@@ -105,10 +105,27 @@ text{
     padding: 5rem;
     padding-top: 15rem;
     color: var(--branco-c);
+    width: 80%;
 }
 .portifolio h1{
     margin: 2rem;
 }
+.portifolio-card img{
+    width: 26.9rem;
+    height: 28.9rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+.slider-wrapper{
+    margin: 2rem;
+    width: 100%;
+}
+.portifolio-card p{
+    font-size: var(--small-sz);
+}
+
+
+
 footer{
     color: var(--branco-c);
     padding: 2rem;
