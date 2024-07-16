@@ -43,3 +43,12 @@
     gap: 1rem;
     justify-content: center;
 }
+.portifolio-card{
+    display: flex;
+    flex-direction: column ;
+    padding: 2rem;
+    border-radius: var(--border-r);
+    border: var(--green-c) 1px solid;
+    width: 38rem;
+    height: 41.2rem;
+}
