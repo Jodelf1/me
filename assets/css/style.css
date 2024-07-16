@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
     text-decoration: none;
+    border: none;
 }
 html{
     font-size: 60.3%;
@@ -75,9 +76,12 @@ text{
     width: 70%;
     padding-top: 15rem;
     gap: 10.6rem;
+    height: 100vh;
 }
 .myphoto{
     width: 48rem;
+    height: 100%;
+    object-fit: cover;
     border-radius: var(--border-r);
 }
 .texto-apresentacao{
@@ -87,28 +91,41 @@ text{
     font-size: var(--big-sz);
     font-weight: 500;
 }
-.texto-apresentacao .cargo{
+.i-do{
     color: var(--green-c);
     font-style: italic;
     padding: 2rem;
+    max-width: 100%;
 }
 .social-link-area{
     gap: 4.4rem;
 }
 
-
-
 .portifolio{
+    padding: 5rem;
     padding-top: 15rem;
     color: var(--branco-c);
 }
-.title{
-    font-size: 3.2rem;
-    padding: var(--mid-sz);
+.portifolio h1{
+    margin: 2rem;
 }
-
 footer{
     color: var(--branco-c);
     padding: 2rem;
+    padding-bottom: 0.9rem;
     background: var(--preto-c);
+}
+.contact-links-area{
+    gap: 1rem;
+    padding-bottom: 5rem;
+}
+.footer-text{
+    font-size: 1.8rem;
+    margin: 2rem;
+}
+.creditos{
+    width: 100%;
+    border-top: var(--green-ct) 1px solid;
+    padding-top: 1rem;
+    text-align: left;
 }

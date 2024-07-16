@@ -15,12 +15,13 @@
     <link rel="stylesheet" href="./assets/css/objects.css">
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/mediaQ.css">
 
 </head>
 <body>
 
     <!-- Header -->
-    <header class="flex row j-between ">
+    <header class="flex row j-between a-center">
 
         <section class="logo-container">
             <img src="assets/img/jstarlogo.svg" alt="" srcset="">
@@ -40,7 +41,7 @@
         <!-- Hero Section-->
         <section class="hero  flex f-center">
             <h1 class="hero-text">
-                A Diferênça está nos <text>detalhes</text> do código.
+                A Diferença está nos <text>detalhes</text> do código.
             </h1>
             <section class="modal">
                 <img src="./assets/img/icons/Info.svg" alt="" class="modal-icon">
@@ -60,7 +61,7 @@
                 <div class="texto-apresentacao flex col t-center">
                     <p>Olá, meu nome é...</p>
                     <h1>Jodelfi Marimba</h1>
-                    <h1 class="cargo">Desenvolvedor web</h1>
+                    <h1 class="i-do">Desenvolvedor web<span id="im"> </span></h1>
 
                     <div class="social-link-area flex row f-center">
                         <a href="https://www.linkedin.com/in/jodelf1/" class="social-link"><img src="assets/img/icons/linkedin.svg" alt=""></a>
@@ -73,22 +74,36 @@
 
             <section class="portifolio t-center" id="portifolio">
                 <h1 class="title">★ ★    Portifolio    ★ ★</h1>
-                <p>É nesta seccção que poderá ver alguns dos projectos em que já trabalhei</p>
+                <p>É nesta secção que poderá ver alguns dos projectos em que já trabalhei</p>
                 <p><text class="front">●</text> front-end <text class="back">●</text> back-end <text class="full">●</text> full-stack</p>
+                <section class=""></section>
             </section>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="flex t-center">
+    <footer class="flex t-center col a-center">
         <h1 class="title">Contacte-me</h1>
-        <p>E me fale sobre o seu projecto... <text>o tornaremos realidade!</text> </p>
-        <div class="contact-links-area">
-            <a href="" class="contact-links"><img src="./assets/img/icons/whatsapp.svg" alt=""><p>+244 928 748 262</p></a>
-            <a href="" class="contact-links"><img src="./assets/img/icons/mail.svg" alt=""><p>jodelfi@blabla.com</p></a>
-            <a href="" class="contact-links"><img src="./assets/img/icons/telegram.svg" alt=""><p>t.me/jodelf1</p></a>
+        <p class="footer-text">... e me fale sobre o seu projecto... <text>o tornaremos realidade!</text> </p>
+        <div class="contact-links-area flex row">
+            <a href="https://wa.me/928748262" class="contact-links" target="_blank"><img src="./assets/img/icons/whatsapp.svg" alt=""><p>+244 928 748 262</p></a>
+            <a href="" class="contact-links" target="_blank"><img src="./assets/img/icons/mail.svg" alt=""><p>jodelfi@blabla.com</p></a>
+            <a href="https://t.me/jodelf1" class="contact-links" target="_blank"><img src="./assets/img/icons/telegram.svg" alt=""><p>t.me/jodelf1</p></a>
+        </div>
+        <div class="creditos">
+            <p>Desenvolvido por <text>Jodelfi Marimba</text> | © 2024 todos os direitos reservados</p>
         </div>
     </footer>
-
+    <!--
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#im', {
+          strings: ['Desenvolvedor web', 'Designer Gráfico'],
+          typeSpeed: 60,
+          backspeed: 60,
+          loopCount: Infinity,
+        });
+      </script>
+      -->
 </body>
 </html>

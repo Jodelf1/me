@@ -15,6 +15,9 @@
     padding: 3rem 2rem;
     border-radius: var(--border-r);
 }
+.title{
+    font-size: 2.5rem;
+}
 .star{
     position: absolute;
 }
@@ -36,4 +39,7 @@
     align-items: center;
     color: var(--preto-c);
     font-weight: 600;
+    font-size: var(--normal-sz);
+    gap: 1rem;
+    justify-content: center;
 }
