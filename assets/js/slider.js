@@ -1,4 +1,4 @@
-const swiper = new Swiper('.slider', {
+const swiper = new Swiper('.slider-wrapper', {
 
     spaceBetween: 10,
     grabCursor: true,
@@ -6,6 +6,7 @@ const swiper = new Swiper('.slider', {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+      dynamicBullets: true
     },
   
     // Navigation arrows
