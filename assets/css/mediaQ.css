@@ -46,5 +46,11 @@
     .content p, .footer-text{
         font-size: 1.5rem;
     }
+    .portifolio{
+        width: 100%;
+    }
 
+    .slider-wrapper .swiper-slide-button {
+        display: none;
+    }
 }
