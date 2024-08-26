@@ -48,8 +48,6 @@
     flex-direction: column ;
     padding: 2rem;
     margin-bottom: 3rem;
-    border-radius: var(--border-r);
-    border: var(--green-c) 1px solid;
     width: 400px;
     /*width: 38rem;
     height: 41.2rem;*/
